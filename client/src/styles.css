@@ -1,0 +1,10 @@
+/* Remove vertical scrollbar from the navbar */
+nav {
+    overflow-y: hidden;
+  }
+  
+  /* Allow scrolling in the main content container */
+  main {
+    overflow-y: auto;
+    flex: 1;
+  }
